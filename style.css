@@ -1,0 +1,187 @@
+ html {
+  font-size: 10px;
+  background: url('./background.jpg') bottom center; 
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} 
+/*
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+} */
+.container{
+  
+  width: 100vp;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keys{
+  
+  width: 100vw;
+  height: 10em;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+
+}
+.keys span{
+  font-size: 2em;
+  font-weight: bolder;
+}
+.keyA{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+  
+}
+.keyS{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.keyD{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.keyF{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.keyG{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.keyH{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.keyJ{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.keyK{
+  border: 5px solid black;
+  
+    padding: 4em;
+border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.keyL{
+  border: 5px solid black;
+  
+  padding: 4em;
+  border-radius: .5em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.funA{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funS{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funD{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funF{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funG{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funH{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funJ{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funK{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+.funL{
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
